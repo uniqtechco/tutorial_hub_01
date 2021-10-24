@@ -1,7 +1,8 @@
 import boto3
 import sagemaker
 from sagemaker.xgboost.estimator import XGBoost
-from sagemaker.session import s3_input, Session
+from sagemaker.session import Session
+from sagemaker.inputs import TrainingInput
 
 # initialize hyperparameters
 hyperparameters = {
@@ -31,8 +32,8 @@ estimator = XGBoost(entry_point = "your_xgboost_abalone_script.py",
 
 # define the data type and paths to the training and validation datasets
 content_type = "libsvm"
-train_input = s3_input("s3://{}/{}/{}/".format(bucket, prefix, 'train'), content_type=content_type)
-validation_input = s3_input("s3://{}/{}/{}/".format(bucket, prefix, 'validation'), content_type=content_type)
+train_input = TrainingInput("s3://{}/{}/{}/".format(bucket, prefix, 'train'), content_type=content_type)
+validation_input = TrainingInput("s3://{}/{}/{}/".format(bucket, prefix, 'validation'), content_type=content_type)
 
 # execute the XGBoost training job
 estimator.fit({'train': train_input, 'validation': validation_input})
