@@ -8,3 +8,15 @@ def plus_1(n, result):
 plus_1(5, 0)
 
 ```
+
+Copy python array `arr`
+
+```arr[:]```
+
+Launch simple python server
+```
+python3 -m http.server
+```
+
+Python set
+
