@@ -13,7 +13,7 @@ When working with structured data, more columns of data isn't always better. It 
 Data can be put through a pipeline of transformations, processing to better feed into models, making compute more efficient, and the model performance better etc. These steps could include: converting to tensors, scaling, imputation, and more. 
 
 ## Feature engineering
-[What is feature engineering (definition)?](https://ml.learn-to-code.co/skillView.html?skill=t5LaiwBlRRS9zok5gmdx)
+[What is feature engineering (definition)? \[public, flash card, easter egg\]](https://ml.learn-to-code.co/skillView.html?skill=t5LaiwBlRRS9zok5gmdx)
 
 ## Feature selection
 A series of analysis, even deep learning, canb e performed to decide whether to retain a feature for training. We can look at the contribution of the feature to model performance, check for correlation, redundancy etc. We can find a variety of reasons to keep or remove a feature column. Just because some features are statistically significant doesn’t mean they should be chosen : age, phone # 2, bankruptcy. It may be immoral (or privacy issue, fallacies). source kaggle day. 
