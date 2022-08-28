@@ -3,6 +3,8 @@ Tensor is an important data structure of Pytorch. Pytorch tensors is like Numpy 
 
 Pytorch Tensor is like Numpy array but with more functionalities including but not limited to: GPU acceleration, auto grad - automatic differentation, automatic gradient calculation, makes it easy for tensors to be a part of the forward pass and backward pass. 
 
+There are different Pytorch libraries for different tasks such as NLP, computer vision, torch text. These are called Pytorch domain libraries. 
+
 ## Data Visualization, TensorBoard
 [Use Tensorboard with Pytorch (Background, history) \[public\]](https://ml.learn-to-code.co/skillView.html?skill=IruUXVdkmBoenUoCGcE0)
 
