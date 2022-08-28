@@ -13,7 +13,11 @@ When working with structured data, more columns of data isn't always better. It 
 Data can be put through a pipeline of transformations, processing to better feed into models, making compute more efficient, and the model performance better etc. These steps could include: converting to tensors, scaling, imputation, and more. 
 
 ## Feature selection
-A series of analysis, even deep learning, canb e performed to decide whether to retain a feature for training. We can look at the contribution of the feature to model performance, check for correlation, redundancy etc. We can find a variety of reasons to keep or remove a feature column. Just because some features are statistically significant doesn’t mean they should be chosen : age, phone # 2, bankruptcy. It may be immoral (or privacy issue, fallacies). source kaggle day
+A series of analysis, even deep learning, canb e performed to decide whether to retain a feature for training. We can look at the contribution of the feature to model performance, check for correlation, redundancy etc. We can find a variety of reasons to keep or remove a feature column. Just because some features are statistically significant doesn’t mean they should be chosen : age, phone # 2, bankruptcy. It may be immoral (or privacy issue, fallacies). source kaggle day. 
+
+On the importance of feature selection : some models are sensitive to noises and outliers such as K Nearest Neighbor (KNN) and linear regression, including invalid or less relevant noisy data points can significantly change the shape, frontier of predicitive modes and even change the final prediction label/value significantly. 
+
+Feature selection can be a boolean True/False, meaning choosing to include a feature or not. Or it can be weighted, account for a fraction of a value of feature contribution. 
 
 ### Feature importance
 Some models can give us measurements of feature importance, which can be used as a tool to select features in the feature selection process. 
