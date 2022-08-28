@@ -7,9 +7,7 @@ Pytorch Tensor is like Numpy array but with more functionalities including but n
 [Use Tensorboard with Pytorch (Background, history) \[public\]](https://ml.learn-to-code.co/skillView.html?skill=IruUXVdkmBoenUoCGcE0)
 
 ## More Pytorch Knowledge
-#### Pytorch Hooks
-[Pytorch hooks (definition) use case \[public\]](https://ml.learn-to-code.co/skillView.html?skill=IcihTl4NenwDnRT3gyc7)
+- **Flatten --> TORCH.FLATTEN** "Flattens input by reshaping it into a one-dimensional tensor." Python torch.flatten to turn into fully connected layer 
+- **Hook --> Pytorch hooks** [Pytorch hooks (definition) use case \[public\]](https://ml.learn-to-code.co/skillView.html?skill=IcihTl4NenwDnRT3gyc7)
+- **With --> Pytorch WITH** [Pytorch WITH (Definition) \[public\]](https://ml.learn-to-code.co/skillView.html?skill=6hCvXsHis0oa87reButo)
 
-
-#### Pytorch WITH
-[Pytorch WITH (Definition) \[public\]](https://ml.learn-to-code.co/skillView.html?skill=6hCvXsHis0oa87reButo)
