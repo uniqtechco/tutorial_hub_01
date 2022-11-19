@@ -6,3 +6,6 @@
 - Standard deviation $\sigma = \sqrt{\frac{\displaystyle\sum_{i=1}^{n}(x_i - \mu)^2} {n}}$
 - Standard deviation $\sigma = \sqrt{\sigma^2}$ equivalent of $\sigma = \sqrt{variance}$ 
 - Standard deviation = square root of variance. On the same scale as the original data - easier to interpret than squared value (variance).
+- R Squared $R^2$ "In statistics, the coefficient of determination, denoted $R^2$ or $r^2$ and pronounced "R squared", is the proportion of the variation in the dependent variable that is predictable from the independent variable(s)." - Wikipedia 
+- R squared formula and definition [R Squared (definition) flash card](https://ml.learn-to-code.co/skillView.html?skill=hnIFRl7NMlzd71ycr70z)
+- R squared visualization [Graphical Representation of R squared flash card](https://ml.learn-to-code.co/skillView.html?skill=mXV70kAVMvPqoXjGETdi)
