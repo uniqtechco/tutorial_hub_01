@@ -1,0 +1,8 @@
+- $\bar{x}$ pronounced *x bar* sample mean average of $x$
+- *variance* *standard deviation* are two popular measures of variability
+- Variance $\sigma^2 = \frac{\displaystyle\sum_{i=1}^{n}(x_i - \mu)^2} {n}$
+- Variance $\sigma^2 = \frac{\displaystyle\sum_{i=1}^{n}(x_i - \bar{x})^2} {n-1}$
+- Variance = roughly the average of squared deviation $\sum_(x_i - \mu)^2$
+- Standard deviation $\sigma = \sqrt{\frac{\displaystyle\sum_{i=1}^{n}(x_i - \mu)^2} {n}}$
+- Standard deviation $\sigma = \sqrt{\sigma^2}$ equivalent of $\sigma = \sqrt{variance}$ 
+- Standard deviation = square root of variance. On the same scale as the original data - easier to interpret than squared value (variance).
